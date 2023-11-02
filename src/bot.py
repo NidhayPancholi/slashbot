@@ -20,12 +20,16 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
+import configparser
 
-sys.path.append("C:/NCSU/Sem 1/SE/Project 3/slashbot/")
+#sys.path.append('C:\Users\Nidhay Pancholi\slashbot')
 from code.user import User
 
-api_token = os.environ["API_TOKEN"]
-# api_token = "6548509986:AAGqxVHFel8qb7pnJRd6EjAQUKUp0x2MSBA"
+#read api_token from config.ini
+config = configparser.ConfigParser()
+config.read('config.ini')
+api_token=config.get('TELEGRAM', 'api_token')
+
 commands = {
     "menu": "Display this menu",
     "add": "Record/Add a new spending",
@@ -1908,7 +1912,7 @@ def display_total_currency2(message):
 if __name__ == "__main__":
     try:
         user_list = get_users()
-        bot.polling(none_stop=True)
+        bot.polling(non_stop=True)
     except Exception as e:
         # Connection will be timed out with the set time interval - 3
         time.sleep(3)
