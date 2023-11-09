@@ -59,6 +59,7 @@ DOLLARS_TO_RUPEES = 75.01
 DOLLARS_TO_EUROS = 0.88
 DOLLARS_TO_SWISS_FRANC = 0.92
 
+api_token='6981994377:AAE5C8CRCxfTsm_RzIn5g21s08b6R-aD0gs'
 bot = telebot.TeleBot(api_token)
 telebot.logger.setLevel(logging.INFO)
 user_list = {}
@@ -448,21 +449,20 @@ def acceptEmailId(message):
             with open("./data/history.csv", "w", newline="") as file:
                 writer = csv.writer(file)
                 writer.writerows(table)
-            # s = io.StringIO()
-            # csv.writer(s).writerows(table)
-            # s.seek(0)
-            # buf = io.StringIO()
-            # buf.write(s.getvalue().encode())
-            # buf.seek(0)
-            # buf.name = "history.csv"
-            # writer = csv.writer(buf, dialect='excel', delimiter = ',')
-            # writer.writerow(u"date", u"category", u"cost")
-
-            # bot.send_document(chat_id, buf)
             mail_content = """Hello,
             This email has an attached copy of your expenditure history.
             Thank you!
+            Your Expenses
+            ---------------------------------
+            Category,Date,Amount in $
             """
+            #read the created CSV file
+            import pandas as pd
+            df = pd.read_csv("./data/history.csv")
+            #iterate over each row and append to mail content
+            for index, row in df.iterrows():
+                mail_content+="            "+row["Category"]+","+row["Date"]+","+str(row["Amount in $"])+"\n"
+            
             # The mail addresses and password
             sender_address = "test.uses.csc510@gmail.com"
             sender_pass = "yqll wvfb jluw gfpy"
@@ -494,9 +494,6 @@ def acceptEmailId(message):
             text = message.as_string()
             session.sendmail(sender_address, receiver_address, text)
             session.quit()
-
-            # bot.send_message(message.chat.id, 'Mail Sent')
-
         except Exception as ex:
             logger.error(str(ex), exc_info=True)
             bot.reply_to(message, str(ex))
