@@ -1489,7 +1489,7 @@ def email_bill(message):
                 text = text.as_string()
                 session.sendmail(sender_address, receiver_address, text)
                 session.quit()
-            bot.send_message(message.chat.id, "Successfully email to the memebers! ")
+            bot.send_message(message.chat.id, "Successfully email to the members! ")
 
     except Exception as ex:
         logger.error(str(ex), exc_info=True)
