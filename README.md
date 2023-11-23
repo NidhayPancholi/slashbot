@@ -11,14 +11,11 @@
 ![Discord](https://img.shields.io/discord/879343473940107264?color=blueviolet&label=Discord%20Discussion%20Chat)
 ![Lines of code](https://img.shields.io/tokei/lines/github/secheaper/slashbot?color=9cf)
 ![Version](https://img.shields.io/github/v/release/secheaper/slashbot?color=ff69b4&label=Version)
-![GitHub issues](https://img.shields.io/github/issues/NidhayPancholi/slashbot
-)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/NidhayPancholi/slashbot
-)
+![GitHub issues](https://img.shields.io/github/issues/NidhayPancholi/slashbot)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/NidhayPancholi/slashbot)
 ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/NidhayPancholi/slashbot)
 ![GitHub language count](https://img.shields.io/github/languages/count/NidhayPancholi/slashbot)
 ![GitHub top language](https://img.shields.io/github/languages/top/NidhayPancholi/slashbot)
-
 
 <hr>
 
