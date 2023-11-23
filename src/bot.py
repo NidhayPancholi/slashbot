@@ -20,15 +20,14 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-import configparser
+import os
+import requests
 
 #sys.path.append('C:\Users\Nidhay Pancholi\slashbot')
 from code.user import User
 
 #read api_token from config.ini
-config = configparser.ConfigParser()
-config.read('config.ini')
-api_token=config.get('TELEGRAM', 'api_token')
+api_token=os.getenv('api_token')
 
 commands = {
     "menu": "Display this menu",
@@ -55,11 +54,26 @@ commands = {
     "sendEmail": "Send an email with an attachment showing your history",
 }
 
-DOLLARS_TO_RUPEES = 75.01
-DOLLARS_TO_EUROS = 0.88
-DOLLARS_TO_SWISS_FRANC = 0.92
 
-api_token='6981994377:AAE5C8CRCxfTsm_RzIn5g21s08b6R-aD0gs'
+def get_exchange_rate():
+    
+    url = "https://v6.exchangerate-api.com/v6/d5c636c6290caac0cb537846/latest/USD"
+    try:
+        response = requests.get(url)
+        data = response.json()
+        
+        exchange_rate = data["conversion_rates"]
+        return exchange_rate['INR'],exchange_rate['EUR'],exchange_rate['CHF']
+    except requests.exceptions.RequestException as e:
+        print(f'Error: {e}')
+        return None
+
+
+
+DOLLARS_TO_RUPEES,DOLLARS_TO_EUROS,DOLLARS_TO_SWISS_FRANC = get_exchange_rate()
+
+print(DOLLARS_TO_RUPEES,DOLLARS_TO_EUROS,DOLLARS_TO_SWISS_FRANC)
+
 bot = telebot.TeleBot(api_token)
 telebot.logger.setLevel(logging.INFO)
 user_list = {}
