@@ -4,68 +4,86 @@ Follow the set of guidelines below to contribute to SlashBot!
 
 ## Code of Conduct
 
-By participating, you are expected to uphold this code. Please report unacceptable behavior to dwu6@ncsu.edu.
+Participation in this project requires adherence to this code. If you encounter any behavior that is deemed unacceptable, please report it to lpatel@ncsu.edu.
 
-Prerequistes required before starting this project
+Prerequisites for engaging in this project include:
 
-1. Must be a graduate student at NC State University
-2. Must be a student in Software Engineering Course in Fall 2023
-3. Have proficiency in Python
+1. Enrollment as a graduate student at NC State University.
+2. Enrollment in the Software Engineering Course in Fall 2023.
+3. Proficiency in Python is a prerequisite for this project.
 
 ## How can I Contribute -
 Fork first, and merge with permission.
  
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for SlashBot.
-Following these guidelines helps maintainers and the community understand your report, reproduce the behavior and find related reports.
+This section provides instructions for submitting a bug report for SlashBot. Adhering to these guidelines aids maintainers and the community in comprehending your report, replicating the issue, and identifying related reports.
 
-Before Submitting A Bug Report
+Before submitting a bug report:
 
-Check the debugging guide
-
-Check the FAQs on the forum for a list of common questions and problems.
-Determine which repository the problem should be reported in.
-
-Perform a cursory search to see if the problem has already been reported.
+1. Review the debugging guide.
+2. Check the FAQs on the forum for a compilation of common questions and issues.
+3. Identify the appropriate repository for reporting the problem.
+4. Conduct a preliminary search to ascertain if the problem has been previously reported.
 
 ## How Do I Submit A (Good) Bug Report?
 
-Use a clear and descriptive title for the issue to identify the problem.
+To facilitate efficient issue resolution, please adhere to the following guidelines:
 
-Describe the exact steps which reproduce the problem in as many details as possible.
+1. **Title:** Use a clear and descriptive title that succinctly identifies the problem.
 
-Provide specific examples to demonstrate the steps.
+2. **Reproduction Steps:** Provide a detailed account of the exact steps that lead to the problem. Include specific examples to illustrate these steps.
 
-Describe the behavior you observed after following the steps and point out what exactly is the problem with that behavior.
+3. **Observed Behavior:** Describe the behavior you witnessed after following the steps, emphasizing the specific issue.
 
-Explain which behavior you expected to see instead and why.
+4. **Expected Behavior:** Clearly state the behavior you anticipated and explain why. This helps in understanding the deviation from expected outcomes.
 
-Include screenshots and animated GIFs which show you following the described steps and clearly demonstrate the problem.
+5. **Visual Aids:** Include screenshots and animated GIFs that visually depict you following the described steps, highlighting the problem.
 
-If the problem is related to performance or memory, include a CPU profile capture with your report.
+6. **Performance or Memory Issues:** If the problem pertains to performance or memory, include a CPU profile capture with your report.
+
+By adhering to these guidelines, you contribute to a more effective understanding and resolution of the reported issue.
 
 ## Pull Requests
 
-The process described here has several goals:
+The outlined process serves multiple objectives:
 
-Maintain the projects quality
+1. **Maintain Project Quality:** Ensure the ongoing quality of the project by addressing and resolving issues and concerns.
 
-Fix problems that are important to users
+2. **Prioritize User Needs:** Focus on fixing problems that hold significance for users, thereby enhancing the overall user experience.
 
-Enable a sustainable system for the projects maintainers to review contributions
-
+3. **Sustain Contribution Review:** Establish and maintain a sustainable system that enables project maintainers to effectively review and incorporate contributions from the community.
+   
 ## Tips to Extend
 
-Check the Projects tab for TO-DO list and pick the feature you find interesting to work on.
+To contribute to the project, follow these steps:
 
-Create a branch and implement the feature in Python using Telegram bot and test it locally.
+1. **Check TO-DO List:**
+   - Navigate to the Projects tab and review the TO-DO list.
+   - Select a feature that piques your interest.
 
-Write corresponding test cases to ensure it is not breaking the existing system.
+2. **Branch and Implementation:**
+   - Create a new branch for your selected feature.
+   - Implement the feature in Python using the Telegram bot.
+   - Test the implementation locally to ensure its functionality.
 
-Create pull request and request for the code review. Once the request is approved, merge to main.
+3. **Write Test Cases:**
+   - Develop relevant test cases to verify that the new feature does not disrupt the existing system.
+   
+4. **Create Pull Request:**
+   - Initiate a pull request, detailing the changes you made.
+   - Request a thorough code review from project maintainers.
 
-Any suggestions to improve the bot is appreciated. Please add it to the TO-DO list.
+5. **Code Review and Approval:**
+   - Engage in the code review process, addressing any feedback.
+   - Once the pull request is approved, proceed to the next step.
+
+6. **Merge to Main:**
+   - Merge the approved changes into the main branch.
+
+7. **Suggestions and TO-DO List:**
+   - Encourage contributors to provide suggestions for bot improvement.
+   - Add any valuable suggestions to the TO-DO list for consideration and future implementation.
 
 ## More tips for developers
 ### Heroku deployment
@@ -78,10 +96,7 @@ Quoted directly from their page:
 
 #### Why this is useful
 
-Before, users had to download source code, insert their API key from telegram, and then run the python file. 
-This can lead to both user error and error within the source code. By deploying it on heroku, you ensure that
-the code is available anywhere, at anytime, without having to download files.
-
+Previously, users needed to download the source code, insert their Telegram API key manually, and then execute the Python file. This process posed the risk of both user error and potential issues within the source code. By deploying the bot on Heroku, the code becomes accessible from any location, at any time, eliminating the need for users to download files and simplifying the overall user experience.
 
 #### How we created the bot
 
