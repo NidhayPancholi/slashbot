@@ -480,6 +480,7 @@ def acceptEmailId(message):
             sender_address = "test.uses.csc510@gmail.com"
             sender_pass = "yqll wvfb jluw gfpy"
             receiver_address = email
+            
             # Setup the MIME
             message = MIMEMultipart()
             message["From"] = sender_address
