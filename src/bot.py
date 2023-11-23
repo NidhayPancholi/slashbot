@@ -72,7 +72,6 @@ def get_exchange_rate():
 
 DOLLARS_TO_RUPEES,DOLLARS_TO_EUROS,DOLLARS_TO_SWISS_FRANC = get_exchange_rate()
 
-print(DOLLARS_TO_RUPEES,DOLLARS_TO_EUROS,DOLLARS_TO_SWISS_FRANC)
 
 bot = telebot.TeleBot(api_token)
 telebot.logger.setLevel(logging.INFO)
