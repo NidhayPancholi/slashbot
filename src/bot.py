@@ -462,19 +462,6 @@ def acceptEmailId(message):
             with open("./data/history.csv", "w", newline="") as file:
                 writer = csv.writer(file)
                 writer.writerows(table)
-            mail_content = """Hello,
-            This email has an attached copy of your expenditure history.
-            Thank you!
-            Your Expenses
-            ---------------------------------
-            Category,Date,Amount in $
-            """
-            #read the created CSV file
-            import pandas as pd
-            df = pd.read_csv("./data/history.csv")
-            #iterate over each row and append to mail content
-            for index, row in df.iterrows():
-                mail_content+="            "+row["Category"]+","+row["Date"]+","+str(row["Amount in $"])+"\n"
             
             # The mail addresses and password
             sender_address = "test.uses.csc510@gmail.com"
