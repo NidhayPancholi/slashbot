@@ -23,6 +23,8 @@ from email import encoders
 import os
 import requests
 
+from palm import PalmAPI
+palm_api = PalmAPI()
 #sys.path.append('C:\Users\Nidhay Pancholi\slashbot')
 from code.user import User
 
@@ -1918,6 +1920,12 @@ def display_total_currency2(message):
         print("Exception occurred : ")
         logger.error(str(ex), exc_info=True)
         bot.reply_to(message, "Processing Failed - Error: " + str(ex))
+
+
+@bot.message_handler(func=lambda message: not message.text.startswith("/"))
+def handle_message(message):
+    response= palm_api.generate_text_response(message.text)
+    bot.reply_to(message, response)
 
 
 if __name__ == "__main__":
