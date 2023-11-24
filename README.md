@@ -2,7 +2,7 @@
 
 ![MIT license](https://img.shields.io/badge/License-MIT-green.svg)
 ![GitHub](https://img.shields.io/github/languages/top/secheaper/slashbot?color=red&label=Python&logo=Python&logoColor=yellow)
-![GitHub contributors](https://img.shields.io/github/contributors/secheaper/slashbot)
+![GitHub contributors](https://img.shields.io/github/contributors/NidhayPancholi/slashbot)
 [![DOI](https://zenodo.org/badge/431190543.svg)](https://zenodo.org/badge/latestdoi/431190543)
 [![Platform](https://img.shields.io/badge/Platform-Telegram-blue)](https://desktop.telegram.org/)
 [![codecov](https://codecov.io/gh/secheaper/slashbot/branch/main/graph/badge.svg?token=YCKWZTHO7O)](https://codecov.io/gh/secheaper/slashbot)
@@ -11,14 +11,11 @@
 ![Discord](https://img.shields.io/discord/879343473940107264?color=blueviolet&label=Discord%20Discussion%20Chat)
 ![Lines of code](https://img.shields.io/tokei/lines/github/secheaper/slashbot?color=9cf)
 ![Version](https://img.shields.io/github/v/release/secheaper/slashbot?color=ff69b4&label=Version)
-![GitHub issues](https://img.shields.io/github/issues/NidhayPancholi/slashbot
-)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/NidhayPancholi/slashbot
-)
+![GitHub issues](https://img.shields.io/github/issues/NidhayPancholi/slashbot)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/NidhayPancholi/slashbot)
 ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/NidhayPancholi/slashbot)
 ![GitHub language count](https://img.shields.io/github/languages/count/NidhayPancholi/slashbot)
 ![GitHub top language](https://img.shields.io/github/languages/top/NidhayPancholi/slashbot)
-
 
 <hr>
 
@@ -28,24 +25,25 @@ https://www.youtube.com/watch?v=uIHnW8YmrsU
 
 ## About SlashBot
 
-SlashBot is an easy-to-use Telegram Bot that assists you in recording your daily expenses on a local system without any hassle.  
-With simple commands, this bot allows you to:
-- Add/Record a new spending
-- Show the sum of your expenditure for the current day/month
-- Display your spending history
-- Clear/Erase all your records
-- Edit/Change any spending details if you wish to
-- Download your expenditure history in the CSV format
-- Visualize your spendings in the form of graphs/pie chart using the /chart option
-- Email the history CSV file to yourself
-- See the total daily/monthly expenditure in different currencies
-- Add/Delete members
-- Displays members
-- split bills across different
-- email splited bill to members involved
-- display splited bill
-- delete bills splited
+SlashBot, your friendly Telegram companion, is the effortlessly witty sidekick for recording your daily expenses on a local system. This clever bot brings a touch of humor to mundane tasks, allowing you to:
 
+- **Add/Record new spending:** Because your expenses deserve a grand entrance!
+- **Show daily/monthly expenditure:** Your financial status is delivered with a side of charm.
+- **Display spending history:** A stroll down memory lane, expense-style.
+- **Clear/Erase records:** Giving you a clean slate, with a dash of drama.
+- **Edit/Change spending details:** Like a magician tweaking the details to keep things interesting.
+- **Download expenditure history in CSV format:** Because spreadsheets are more fun when they come with a little flair.
+- **Visualize spending with graphs/pie charts:** Turning your expenses into a visual masterpiece, one chart at a time.
+- **Email history CSV file:** Sending your financial history with a touch of sophistication.
+- **See total daily/monthly expenditure in different currencies:** Because money speaks many languages.
+- **Add/Delete members:** Managing your squad with a sprinkle of organizational magic.
+- **Display members:** A roll call of your financial confidantes.
+- **Split bills across different members:** Dividing the financial pie, no math degree required.
+- **Email split bills:** Sharing expenses with a touch of class.
+- **Display split bills:** Showing off the art of financial collaboration.
+- **Delete split bills:** Erasing the evidence, just like magic.
+
+SlashBot, where Witt meets fiscal responsibility! 🎩💸✨
 ---
 Sample demos are shown below. They are run on a local machine.
 
@@ -54,24 +52,39 @@ Sample demos are shown below. They are run on a local machine.
 
 ---
 
-# :star: Whats New
+# :star: What's New
 
 ### Release Version 1.3.1
 
-- Split a bill acrross different members using the /splitBill command
-- Email the bill splited to members involved using the /emailBill command
-- Display the bill history using the /viewSplitBill
-- Delete the bill by choosing the name of the bill by using /deleteBill
-- Details for testing requirements added in README.md
-- Add more test cases
+Divvy up expenses with flair using SlashBot's /splitBill command! Here's how you can make your financial life a breeze:
+
+1. **Split a Bill (/split bill):**
+   - Effortlessly divide expenses among different members using this nifty command.
+
+2. **Email the Split Bill (/emailBill):**
+   - Send out the divvied-up bill directly to the involved members using the /emailBill command.
+
+3. **Display Bill History (/viewSplitBill):**
+   - Curious about your past financial collaborations? Simply use /viewSplitBill to see the history.
+
+4. **Delete a Bill (/deleteBill):**
+   - Choose the bill you wish to erase by using /deleteBill, keeping your financial records as tidy as can be.
+
+5. **Testing Requirements in README.md:**
+   - Find all the details you need for testing in the README.md file. Testing made as easy as using the /splitBill command!
+
+6. **Additional Test Cases:**
+   - To ensure robust functionality, we've added more test cases to cover various scenarios. Because comprehensive testing is the key to a flawless financial experience!
+
+With these commands and testing enhancements, SlashBot transforms bill splitting into a seamless and delightful experience. Financial harmony, one command at a time! 💸🤖✉️
 
 
 ### Release Version 1.3.0
 
 - Add members using /addMember
-- Delete the member by choosing the name of the memebr by using /memberDelete
-- Display the members list by using the /memberList
-- Add more documentaions for the functions
+- Delete the member by choosing the name of the member by using /memberDelete
+- Display the member's list by using the /memberList
+- Add more documents for the functions
 
 
 
@@ -85,44 +98,46 @@ Sample demos are shown below. They are run on a local machine.
 # :rocket: Installation Guide
 
 ## 💻For developers 
-1. Install Python, atleast Python3
+Setting up your environment for MyDollarBot is a breeze! Just follow these steps:
 
-2. Clone this repository to your local system at a suitable directory/location of your choice
+1. **Install Python:**
+   - Ensure you have at least Python3 installed on your system.
 
-3. Start a terminal session, and navigate to the directory where the repo has been cloned
+2. **Clone Repository:**
+   - Clone this repository to a directory of your choice on your local system.
 
-4. Run the following command to install the required dependencies:
-```
-  pip install -r requirements.txt
-```
-5. Download and install the Telegram desktop application for your system from the following site: https://desktop.telegram.org/
+3. **Navigate and Install Dependencies:**
+   - Open a terminal session, navigate to the cloned repository, and run:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-6. Once you login to your Telegram account, search for "BotFather" in Telegram. Click on "Start" --> enter the following command:
-```
-  /newbot
-```
-7. Follow the instructions on screen and choose a name for your bot. Post this, select a username for your bot that ends with "bot" (as per the instructions on your Telegram screen)
+4. **Download Telegram Desktop App:**
+   - Install the Telegram desktop application from [desktop.telegram.org](https://desktop.telegram.org/).
 
-8. BotFather will now confirm the creation of your bot and provide a TOKEN to access the HTTP API - copy this token for future use.
+5. **Create a Telegram Bot:**
+   - Search for "BotFather" in Telegram and follow the instructions to create a new bot.
 
-9. Search for "Edit the system environment variables" on your local computer. Click on Environment Variables and create a new System Variable called "API_TOKEN" and paste the token copied in step 8.
+6. **Set API_TOKEN Environment Variable:**
+   - Create a new System Variable named "API_TOKEN" in your computer's environment variables and paste the token obtained from BotFather.
 
-10. In the Telegram app, search for your newly created bot by entering the username and open the same. Once this is done, go back to the terminal session. 
-Make sure you export the PYTHONPATH variable to the main project folder
- ```
- python src/bot.py
-```
-11. A successful run will generate a message on your terminal that says "TeleBot: Started polling." 
-12. Post this, navigate to your bot on Telegram, enter the "/start" or "/menu" command, and you are all set to track your expenses!
+7. **Run the Bot:**
+   - In the terminal, export the PYTHONPATH variable to the main project folder:
+     ```bash
+     python src/bot.py
+     ```
+     A successful run will display "TeleBot: Started polling."
 
-For more info on deployment(Heroku), check out the doc [here](https://github.com/mtkumar123/MyDollarBot/blob/main/CONTRIBUTING.md#more-tips-for-developers)
+8. **Test Your Bot:**
+   - Search for your bot on Telegram and enter "/start" or "/menu" to begin tracking your expenses.
 
+For details on deploying on Heroku and more developer tips, check out the documentation [here](https://github.com/mtkumar123/MyDollarBot/blob/main/CONTRIBUTING.md#more-tips-for-developers). Happy tracking! 📊💸🤖
 
 ## 💻For testing with Pytest
-1. Some modules in testing require CHAT_ID environment variable to be set.
+1. Some modules in testing require the CHAT_ID environment variable to be set.
 2. This is the specific ID that is maintained for your chat with the Bot.
-3. While running the bot.py , get this id from line 72 and set it in your system environment variables.
-4. This should ensure effective running of all tests.
+3. While running the bot.py, get this ID from line 72 and set it in your system environment variables.
+4. This should ensure the effective running of all tests.
 
 
 # :information_desk_person: Sample Demos
@@ -160,27 +175,27 @@ For more info on deployment(Heroku), check out the doc [here](https://github.com
 4. Chose Creditor
 5. Chose Debtors
 
-### View the splited bill
+### View the split bill
 
 <p align="center"><img width="700" src="https://github.com/token1029/slashbot/blob/main/docs/workflows/viewsplitbill.png"></p>
 
 1. Enter the `/viewSplitBill` command
 
-### Email the splited bill
+### Email the split bill
 
 <p align="center"><img width="700" src="https://github.com/token1029/slashbot/blob/main/docs/workflows/emailbill.png"></p>
 
 1. Enter the `/emailBill` command
 
 
-### Delete a splited bill
+### Delete a split bill
 
 <p align="center"><img width="700" src="https://github.com/token1029/slashbot/blob/main/docs/workflows/deletbill.png"></p>
 
 1. Enter the `/deleteBill` command
 2. Chose the name of the bill to delete
 
-### Clear Bill history
+### Clear Bill History
 
 I want to send myself an email for the monthly expenditure
 
@@ -216,4 +231,4 @@ https://github.com/token1029/slashbot/blob/main/proj2/proj2rubric.md
 
 # :calling: Support
 
-For any support, email us at wdming1029@gmail.com
+For any support, email us at lpatel@ncsu.edu
