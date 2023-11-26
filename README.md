@@ -219,9 +219,9 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 | Video | 3 | Link Updated (https://www.youtube.com/watch?v=HFh_ms9q0As) |
 | Workload | 3 | Distributed |
 | Number of commits | 3 | 20+ |
-| Number of commits: by different people | 3 |  |
-| Issues report: There are many | 2 |  |
-| Issues are being closed | 2 |  |
+| Number of commits: by different people | 3 | https://github.com/NidhayPancholi/slashbot/graphs/contributors |
+| Issues report: There are many | 2 | https://github.com/NidhayPancholi/slashbot/pulse |
+| Issues are being closed | 2 | https://github.com/NidhayPancholi/slashbot/pulse |
 | DOI badge | 3 |  |
 | Docs: format | 3 |  |
 | Docs: description  | 3 |  |
