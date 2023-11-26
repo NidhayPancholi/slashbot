@@ -21,7 +21,7 @@
 
 ## Demo Video
 
-https://www.youtube.com/watch?v=uIHnW8YmrsU
+https://www.youtube.com/watch?v=HFh_ms9q0As
 
 ## About SlashBot
 
