@@ -8,11 +8,11 @@ We commit to conducting ourselves in a manner that fosters an atmosphere of open
 
 ## Our Standards
 
-Examples of behavior that contributes to a positive environment for our
-community includes:
+Following are examples of behavior that contribute to a positive environment for our
+community:
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
+* Displaying compassion and understanding for others
+* Respecting and valuing the perspectives, experiences, and opinions of others
 * Giving and gracefully accepting constructive feedback
 * Accepting responsibility and apologizing to those affected by our mistakes,
   and learning from the experience
@@ -23,9 +23,9 @@ Examples of unacceptable behavior include:
 
 * This encompasses:
 - The utilization of sexualized language or imagery, as well as any form of sexual attention or advances.
-- Engaging in trolling, making insulting or derogatory comments, and launching personal or political attacks.
+- Launching personal or political assaults, trolling, and making offensive or disparaging remarks.
 - Participating in public or private harassment.
-- Disclosing others' private information, such as physical or email addresses, without their explicit consent.
+- Revealing others' private information, such as physical or email addresses, without their explicit consent.
 - Any other behavior that could reasonably be deemed inappropriate in a professional setting.
 
 ## Enforcement Responsibilities
@@ -40,8 +40,8 @@ This Code of Conduct applies universally across all community spaces, encompassi
 
 ## Enforcement Guidelines
 
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
+Community leaders will decide the repercussions for any behavior they believe to be against 
+this code of conduct by consulting these Community Impact Guidelines:
 
 ### 1. Correction
 
