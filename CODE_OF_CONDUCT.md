@@ -21,10 +21,9 @@ community:
 
 Examples of unacceptable behavior include:
 
-* This encompasses:
 - The utilization of sexualized language or imagery, as well as any form of sexual attention or advances.
 - Launching personal or political assaults, trolling, and making offensive or disparaging remarks.
-- Participating in public or private harassment.
+- Engaging in harassment, either in public or privately.
 - Revealing others' private information, such as physical or email addresses, without their explicit consent.
 - Any other behavior that could reasonably be deemed inappropriate in a professional setting.
 
@@ -47,7 +46,7 @@ this code of conduct by consulting these Community Impact Guidelines:
 
 **Community Impact**: Engaging in the use of inappropriate language or displaying behavior that is considered unprofessional or unwelcome within the community is not acceptable.
 
-**Consequence**: In the event of a violation, community leaders may issue a private, written warning to the individual involved. This communication aims to offer clarity on the nature of the violation and an explanation of why the behavior was deemed inappropriate. Additionally, there may be a request for a public apology as part of the resolution process.
+**Consequence**: Community leaders have the authority to send the offending person a confidential, written warning in the case of a violation. Clarity regarding the nature of the violation and an explanation of why the activity was deemed inappropriate are the goals of this communication. A public apology could also be requested as a part of the resolution procedure.
 
 ### 2. Warning
 
@@ -59,7 +58,7 @@ this code of conduct by consulting these Community Impact Guidelines:
 
 **Community Impact**: A serious violation of community standards involves persistent inappropriate behavior that significantly deviates from the established norms and expectations within the community.
 
-**Consequence**: A temporary ban entails a prohibition on any form of interaction or public communication with the community for a specified duration. During this period, individuals are not permitted to engage in public or private interactions with those involved, including unsolicited contact with those responsible for enforcing the Code of Conduct. Failure to adhere to these terms may result in a permanent ban.
+**Consequence**: For an established amount of time, any kind of public engagement or communication with the community is prohibited under a temporary ban. People are not allowed to connect with persons involved in any way, either in public or privately, during this time. This includes not contacting those who are in charge of enforcing the Code of Conduct without permission. There could be a permanent ban for breaking these rules.
 
 ### 4. Permanent Ban
 
