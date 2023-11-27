@@ -212,18 +212,17 @@ I want to send myself an email for the monthly expenditure
 
 ### Email Bill
 
-
-<p align="center"><img width="700" src="https://github.com/NidhayPancholi/slashbot/tree/main/docs/workflows/e.png"></p>
-<p align="center"><img width="700" src="https://github.com/NidhayPancholi/slashbot/tree/main/docs/workflows/d.png"></p>
+![](https://raw.githubusercontent.com/NidhayPancholi/slashbot/main/docs/workflows/e.png)
+![](https://raw.githubusercontent.com/NidhayPancholi/slashbot/main/docs/workflows/d.png)
 
 1. Enter the `/emailBill` command
 2. Enter your email-id
 
 ### AI Feature 🌟
 
-<p align="center"><img width="700" src="https://github.com/NidhayPancholi/slashbot/tree/main/docs/workflows/c.png"></p>
-<p align="center"><img width="700" src="https://github.com/NidhayPancholi/slashbot/tree/main/docs/workflows/b.png"></p>
-<p align="center"><img width="700" src="https://github.com/NidhayPancholi/slashbot/tree/main/docs/workflows/a.png"></p>
+![](https://raw.githubusercontent.com/NidhayPancholi/slashbot/main/docs/workflows/c.png)
+![](https://raw.githubusercontent.com/NidhayPancholi/slashbot/main/docs/workflows/b.png)
+![](https://raw.githubusercontent.com/NidhayPancholi/slashbot/main/docs/workflows/a.png)
 
 1. Message 'Hi', 'Hello' or literrally anything else.
 2. Sit-back and let AI worry about your problem.
