@@ -68,9 +68,11 @@ this code of conduct by consulting these Community Impact Guidelines:
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 3.0, available at https://www.contributorcovenant.org/version/3/0/code_of_conduct.html.
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], 
+version 3.0, available at https://www.contributorcovenant.org/version/3/0/code_of_conduct.html.
 
-Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).
+Community Impact Guidelines were inspired by 
+[Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).
 
 [homepage]: https://www.contributor-covenant.org
 
