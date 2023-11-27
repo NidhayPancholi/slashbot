@@ -54,7 +54,7 @@ Sample demos are shown below. They are run on a local machine.
 
 # :star: What's New
 
-### Release Version 1.3.1
+### Release Version 1.3.2
 
 Divvy up expenses with flair using SlashBot's /splitBill command! Here's how you can make your financial life a breeze:
 
@@ -70,10 +70,16 @@ Divvy up expenses with flair using SlashBot's /splitBill command! Here's how you
 4. **Delete a Bill (/deleteBill):**
    - Choose the bill you wish to erase by using /deleteBill, keeping your financial records as tidy as can be.
 
-5. **Testing Requirements in README.md:**
+5. **Email Bill Details (/emailBill):**
+   - Choose the bill you wish to view or save, just hit the email command.
+  
+6. **AI Feature 🌟:**
+   - Just put in any message and the AI will have a solution for your problems.
+
+7. **Testing Requirements in README.md:**
    - Find all the details you need for testing in the README.md file. Testing made as easy as using the /splitBill command!
 
-6. **Additional Test Cases:**
+8. **Additional Test Cases:**
    - To ensure robust functionality, we've added more test cases to cover various scenarios. Because comprehensive testing is the key to a flawless financial experience!
 
 With these commands and testing enhancements, SlashBot transforms bill splitting into a seamless and delightful experience. Financial harmony, one command at a time! 💸🤖✉️
@@ -203,6 +209,24 @@ I want to send myself an email for the monthly expenditure
 <p align="center"><img width="700" src="https://github.com/token1029/slashbot/blob/main/docs/workflows/clearBill.png"></p>
 
 1. Enter the `/clearBill›` command
+
+### Email Bill
+
+<p align="center"><img width="700" src="https://github.com/token1029/slashbot/blob/main/docs/workflows/e.png"></p>
+<p align="center"><img width="700" src="https://github.com/token1029/slashbot/blob/main/docs/workflows/d.png"></p>
+
+1. Enter the `/emailBill` command
+2. Enter your email-id
+
+### AI Feature 🌟
+
+<p align="center"><img width="700" src="https://github.com/token1029/slashbot/blob/main/docs/workflows/c.png"></p>
+<p align="center"><img width="700" src="https://github.com/token1029/slashbot/blob/main/docs/workflows/b.png"></p>
+<p align="center"><img width="700" src="https://github.com/token1029/slashbot/blob/main/docs/workflows/a.png"></p>
+
+1. Message 'Hi', 'Hello' or literrally anything else.
+2. Sit-back and let AI worry about your problem.
+3. View the solution that AI provides you.
 
 
 :page_facing_up: License
