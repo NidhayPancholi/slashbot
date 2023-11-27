@@ -6,26 +6,26 @@ Follow the set of guidelines below to contribute to SlashBot!
 
 Participation in this project requires adherence to this code. If you encounter any behavior that is deemed unacceptable, please report it to lpatel@ncsu.edu.
 
-Prerequisites for engaging in this project include:
+Following are the prerequisites for engaging in this project include:
 
-1. Enrollment as a graduate student at NC State University.
-2. Enrollment in the Software Engineering Course in Fall 2023.
-3. Proficiency in Python is a prerequisite for this project.
+1. Enrollment in NC State University's graduate program.
+2. Fall 2023 enrolment in the software engineering course.
+3. Completion of this project requires Python proficiency.
 
 ## How can I Contribute -
 Fork first, and merge with permission.
  
 ### Reporting Bugs
 
-This section provides instructions for submitting a bug report for SlashBot. Adhering to these guidelines aids maintainers and the community in comprehending your report, replicating the issue, and identifying related reports.
+This section outlines the steps for filing a bug report for SlashBot. Following these recommendations makes it easier for maintainers and the community to understand your complaint, reproduce the problem, and find related reports.
 
 Before submitting a bug report:
 
 1. Review the debugging guide.
-2. Check the FAQs on the forum for a compilation of common questions and issues.
-3. Identify the appropriate repository for reporting the problem.
-4. Conduct a preliminary search to ascertain if the problem has been previously reported.
-
+2. Look through the forum's FAQs for a list of frequently asked queries and problems.
+3. Determine which repository is best for reporting the issue.
+4.  Start by doing a quick search to see if the issue has been reported before.
+   
 ## How Do I Submit A (Good) Bug Report?
 
 To facilitate efficient issue resolution, please adhere to the following guidelines:
@@ -59,20 +59,20 @@ The outlined process serves multiple objectives:
 To contribute to the project, follow these steps:
 
 1. **Check TO-DO List:**
-   - Navigate to the Projects tab and review the TO-DO list.
-   - Select a feature that piques your interest.
+   - Examine the TO-DO list by selecting the Projects tab.
+   - Choose a feature that catches your attention.
 
 2. **Branch and Implementation:**
-   - Create a new branch for your selected feature.
-   - Implement the feature in Python using the Telegram bot.
-   - Test the implementation locally to ensure its functionality.
+  - For the feature you have chosen, create a new branch.
+  - Use the Telegram bot to implement the feature in Python.
+  - To make sure the implementation is functioning, test it locally.
 
 3. **Write Test Cases:**
-   - Develop relevant test cases to verify that the new feature does not disrupt the existing system.
+   - Create relevant test cases to ensure the new functionality is not disruptive with the current setup.
    
 4. **Create Pull Request:**
-   - Initiate a pull request, detailing the changes you made.
-   - Request a thorough code review from project maintainers.
+   - Start a pull request and describe the modifications you made.
+   - Request project maintainers to provide a comprehensive code review.
 
 5. **Code Review and Approval:**
    - Engage in the code review process, addressing any feedback.
